@@ -1,0 +1,48 @@
+<nav class="w-[90%] mx-auto mt-6 px-8 py-5 flex items-center justify-between rounded-[28px] 
+            border border-regal-purple/20 
+            bg-surface/70 
+            backdrop-blur-xl 
+            shadow-[0_0_35px_rgba(200,0,255,0.15)] 
+            transition-colors duration-500">
+
+    <!-- Logo -->
+    <div
+        class="text-3xl font-bold bg-gradient-to-r from-regal-purple to-cyber-cyan bg-clip-text text-transparent cursor-pointer">
+        {{'nav.name' | translate}}
+    </div>
+
+    <!-- Links -->
+    <ul class="hidden md:flex items-center gap-10">
+        @for (link of ['about', 'experience', 'projects', 'contact']; track link) {
+        <li>
+            <a [href]="'#' + link" class="relative text-text-dim hover:text-text-main duration-300 
+                       after:absolute after:left-0 after:-bottom-2 after:w-0 after:h-[2px] 
+                       after:bg-gradient-to-r after:from-regal-purple after:to-cyber-cyan 
+                       after:duration-300 hover:after:w-full">
+                {{ 'nav.' + link | translate }}
+            </a>
+        </li>
+        }
+    </ul>
+
+    <!-- Actions -->
+    <div class="flex items-center gap-4">
+        <!-- Translation Button -->
+        <button (click)="toggleLanguage()"
+            class="px-4 py-2 rounded-full border border-regal-purple/30 text-text-dim hover:text-text-main hover:border-regal-purple duration-300">
+            {{ 'nav.lang_btn' | translate }}
+        </button>
+
+        <!-- Dark Mode Button -->
+        <button (click)="toggleDarkMode()" class="w-11 h-11 rounded-full flex items-center justify-center 
+                   bg-gradient-to-r from-regal-purple to-cyber-cyan 
+                   text-white shadow-[0_0_20px_rgba(200,0,255,0.4)] 
+                   hover:scale-110 duration-300">
+            @if (isDarkMode()) {
+            <span class="text-xl cursor-pointer">☀️</span>
+            } @else {
+            <span class="text-xl cursor-pointer">🌙</span>
+            }
+        </button>
+    </div>
+</nav>

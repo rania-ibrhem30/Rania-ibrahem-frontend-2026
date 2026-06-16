@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "about": "About Me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact Me",
+    "lang_btn": "AR",
+    "name": "Rania Ibrahem"
+  },
+  "hero": {
+    "welcome": "Welcome to My Digital World",
+    "iam": "I am",
+    "description": "A seasoned Frontend Developer, specializing in crafting modern web applications using Angular and Tailwind CSS. I focus on transforming ideas into stunning digital experiences.",
+    "cta_btn": "See My Work"
+  },
+  "portfolio": {
+    "exp_title1": "Professional",
+    "exp_title2": "Experience",
+    "proj_title1": "Featured",
+    "proj_title2": "Projects",
+    "proj_desc": "A collection of smart applications, enterprise systems, and automation platforms I developed using Angular, SSR, and AI technologies.",
+    "view_project": "View Project"
+  },
+  "experience": {
+    "geekyAir": {
+      "role": "Front-end Developer",
+      "company": "Geeky Air",
+      "location": "Alexandria, EGY",
+      "duration": "Jan 2023 - Present",
+     "points": [
+      "Developed GeekyAir Internal Portal, an enterprise-grade Angular 17 web application.",
+      "Implemented secure JWT authentication and Role-Based Access Control (RBAC) systems.",
+      "Managed admin dashboards including user management, room booking layouts, and workflow orchestration.",
+      "Integrated external services like Upwork API and crafted a responsive UI utilizing Material Design concepts."
+    ]
+    }
+  },
+  "projects": {
+    "slogantodo": {
+      "title": "SloganTodo - Protected Task Management Application",
+      "desc": "A modern Angular 17 task management web application implementing secure JWT authentication and protected routing via Auth Guards. Optimized for maximum performance using feature-based Lazy Loading and Standalone Components. Built with a responsive UI utilizing PrimeNG, Angular Material, and Bootstrap 5, powered by RxJS for reactive state handling."
+    },
+    "slogansocial": {
+      "title": "SloganSocial - Gmail Email Sequencer & Analytics Platform",
+      "desc": "An advanced Gmail Sequencer frontend application built with Angular 17, designed to help users automate and sequence email marketing campaigns. Features integrated analytics dashboards powered by Chart.js to track user engagement. Built with a professional UI combining Material Design, PrimeNG, and Bootstrap, utilizing ngx-cookie-service for secure session management."
+    },
+    "helloflow": {
+      "title": "HelloFlow - Social Media Marketing Automation Platform",
+      "desc": "Developed a comprehensive Angular 17-based web application for managing multi-account social media campaigns. Implemented secure user authentication with JWT token management, email verification, and password recovery. Built modular campaign management system with CRUD operations including draft/active/completed campaign tracking. Integrated cookie-based session persistence using ngx-cookie-service and implemented account credit management system. Architecture features standalone components, RxJS observables for reactive data flows, and responsive UI with PrimeNG components."
+    },
+    "sigma": {
+      "title": "SiGma - Enterprise-Grade Web Application",
+      "desc": "An enterprise-grade Angular v17 web application with modular architecture, feature-based lazy loading, and reactive state management using RxJS BehaviorSubjects. Features robust authentication with HTTP interceptors, global error handling, and multi-language support (ngx-translate). Built with professional UI using Metronic and Bootstrap 5, incorporating advanced DataTables, Leaflet maps, and multi-domain integration (Billing, HR, Lease, Fleet Management)."
+    },
+    "rebamp": {
+      "title": "ReBamp Website",
+      "desc": "Developed and integrated a web application with an AI model that can transform furniture designs into various other types."
+    },
+    "gameover": {
+      "title": "GameOver Website",
+      "desc": "Built an advanced platform featuring full authentication (Login/Signup) using JSON Web Tokens, protected by Auth Guards and optimized with Dependency Injection."
+    },
+    "maps": {
+      "title": "usalifeonlines & 888maps",
+      "desc": "Developed robust platforms integrating Google Maps, Geo-Location, and complex filtering mechanisms with Server-Side Rendering (SSR)."
+    },
+    "noxe": {
+      "title": "Noxe Movies",
+      "desc": "A complete movie platform securely integrated with external APIs, featuring full category filtering, secure login systems, and real-time search functionality."
+    },"geekyair_portal": {
+  "title": "GeekyAir Internal Portal - Enterprise Management Application",
+  "desc": "An enterprise-grade Angular 17 web application featuring secure JWT authentication, Role-Based Access Control (RBAC), room and user management, workflow orchestration, Upwork API integration, and a professional Material Design UI layout."
+}
+  },
+  "contact": {
+  "title1": "Contact",
+  "title2": "Me",
+  "subtitle": "Have a project idea or looking for a developer to build your next application? Send a message and let's talk.",
+  "name_label": "Full Name",
+  "email_label": "Email Address",
+  "msg_label": "Your Message",
+  "send_btn": "Send Message",
+  "success_msg": "Your message has been sent successfully! Thank you.",
+  "rights": "All Rights Reserved © 2026 Rania Ibrahem"
+}
+}

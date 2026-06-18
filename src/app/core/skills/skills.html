@@ -1,0 +1,38 @@
+<section id="skills" class="relative py-24 flex items-center justify-center overflow-hidden">
+    <div class="container mx-auto max-w-6xl px-6 md:px-12 relative z-10">
+
+        <div class="mb-16 text-center md:text-left rtl:md:text-right">
+            <h2 class="text-3xl md:text-5xl font-extrabold text-text-main mb-4">
+                {{ 'skills_section.title1' | translate }}
+                <span class="bg-gradient-to-r from-regal-purple to-cyber-cyan bg-clip-text text-transparent">
+                    {{ 'skills_section.title2' | translate }}
+                </span>
+            </h2>
+            <p class="text-text-dim text-base md:text-lg max-w-xl">
+                {{ 'skills_section.desc' | translate }}
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            @for (category of skillCategories; track category.id) {
+            <div
+                class="bg-surface/30 backdrop-blur-md border border-regal-purple/10 p-8 rounded-2xl transition-all duration-300 hover:border-cyber-cyan/30 shadow-[0_10px_30px_rgba(0,0,0,0.2)]">
+                <h3 class="text-xl font-bold text-cyber-cyan mb-6 flex items-center gap-3">
+                    <span class="text-2xl">{{ category.icon }}</span>
+                    {{ 'skills.categories.' + category.id | translate }}
+                </h3>
+
+                <div class="flex flex-wrap gap-3">
+                    @for (skill of category.items; track skill) {
+                    <span
+                        class="px-4 py-2 bg-surface/60 border border-regal-purple/20 text-text-main text-sm font-medium rounded-xl transition-all duration-300 hover:scale-105 hover:border-cyber-cyan/50 hover:text-cyber-cyan">
+                        {{ skill }}
+                    </span>
+                    }
+                </div>
+            </div>
+            }
+        </div>
+
+    </div>
+</section>

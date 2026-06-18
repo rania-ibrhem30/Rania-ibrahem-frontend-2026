@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { Navbar } from './shared/components/navbar/navbar';
 import { TranslateModule } from '@ngx-translate/core';
 import { Footer } from "./shared/components/footer/footer";
+import { Skills } from './core/skills/skills';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, Navbar, TranslateModule, Footer],
+  imports: [RouterOutlet, Navbar, TranslateModule, Footer, Skills],
   templateUrl: './app.html',
   styleUrl: './app.css',
 
@@ -14,7 +15,7 @@ import { Footer } from "./shared/components/footer/footer";
 export class App {
   protected readonly title = signal('portfolio');
   // 1. مفاتيح الترجمة للخبرة المهنية
-  experienceKeys = ['geekyAir'];
+  experienceKeys = ['freelance', 'geekyAir'];
   pointIndexes = [0, 1];
 
   // 2. مصفوفة المشاريع كاملة مع الـ IDs والصور والـ Tags

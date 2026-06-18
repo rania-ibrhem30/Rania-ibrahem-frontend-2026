@@ -5,6 +5,7 @@
     "projects": "Projects",
     "contact": "Contact Me",
     "lang_btn": "AR",
+    "skills": "Skills",
     "name": "Rania Ibrahem"
   },
   "hero": {
@@ -22,17 +23,28 @@
     "view_project": "View Project"
   },
   "experience": {
+    "freelance": {
+      "role": "Freelance Frontend Developer",
+      "company": "Self-Employed",
+      "location": "Remote",
+      "duration": "Nov 2025 - Present",
+      "points": {
+        "0": "Building and architecting responsive, high-performance web applications using Angular and Tailwind CSS.",
+        "1": "Translating UI/UX mockups into pixel-perfect, clean, and interactive functional web pages.",
+        "2": "Managing clients, timelines, and deliverable lifecycles independently."
+      }
+    },
     "geekyAir": {
       "role": "Front-end Developer",
       "company": "Geeky Air",
       "location": "Alexandria, EGY",
-      "duration": "Jan 2023 - Present",
-     "points": [
-      "Developed GeekyAir Internal Portal, an enterprise-grade Angular 17 web application.",
-      "Implemented secure JWT authentication and Role-Based Access Control (RBAC) systems.",
-      "Managed admin dashboards including user management, room booking layouts, and workflow orchestration.",
-      "Integrated external services like Upwork API and crafted a responsive UI utilizing Material Design concepts."
-    ]
+      "duration": "Jan 2023 - Nov 2025",
+      "points": {
+        "0": "Developed GeekyAir Internal Portal, an enterprise-grade Angular 17 web application.",
+        "1": "Implemented secure JWT authentication and Role-Based Access Control (RBAC) systems.",
+        "2": "Managed admin dashboards including user management, room booking layouts, and workflow orchestration.",
+        "3": "Integrated external services like Upwork API and crafted a responsive UI utilizing Material Design concepts."
+      }
     }
   },
   "projects": {
@@ -67,20 +79,33 @@
     "noxe": {
       "title": "Noxe Movies",
       "desc": "A complete movie platform securely integrated with external APIs, featuring full category filtering, secure login systems, and real-time search functionality."
-    },"geekyair_portal": {
-  "title": "GeekyAir Internal Portal - Enterprise Management Application",
-  "desc": "An enterprise-grade Angular 17 web application featuring secure JWT authentication, Role-Based Access Control (RBAC), room and user management, workflow orchestration, Upwork API integration, and a professional Material Design UI layout."
-}
+    },
+    "geekyair_portal": {
+      "title": "GeekyAir Internal Portal - Enterprise Management Application",
+      "desc": "An enterprise-grade Angular 17 web application featuring secure JWT authentication, Role-Based Access Control (RBAC), room and user management, workflow orchestration, Upwork API integration, and a professional Material Design UI layout."
+    }
   },
   "contact": {
-  "title1": "Contact",
-  "title2": "Me",
-  "subtitle": "Have a project idea or looking for a developer to build your next application? Send a message and let's talk.",
-  "name_label": "Full Name",
-  "email_label": "Email Address",
-  "msg_label": "Your Message",
-  "send_btn": "Send Message",
-  "success_msg": "Your message has been sent successfully! Thank you.",
-  "rights": "All Rights Reserved © 2026 Rania Ibrahem"
+    "title1": "Contact",
+    "title2": "Me",
+    "subtitle": "Have a project idea or looking for a developer to build your next application? Send a message and let's talk.",
+    "name_label": "Full Name",
+    "email_label": "Email Address",
+    "msg_label": "Your Message",
+    "send_btn": "Send Message",
+    "success_msg": "Your message has been sent successfully! Thank you.",
+    "rights": "All Rights Reserved © 2026 Rania Ibrahem"
+  },
+ "skills_section": {
+  "title1": "My",
+  "title2": "Skills",
+  "desc": "The tech stack, tools, and specialized technologies I use to build high-performance web and geospatial applications."
+},
+"skills": {
+  "categories": {
+    "frontend": "Core Frontend",
+    "styling": "UI & Styling",
+    "tools": "Architecture & Tools"
+  }
 }
 }

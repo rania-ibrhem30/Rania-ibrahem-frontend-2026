@@ -56,7 +56,7 @@ export class App {
       id: 'maps',
       tech: ['Angular 17', 'SSR', 'Google Maps API'],
       image: 'maps.png',
-      link: '#'
+      link: 'https://www.888maps.com/'
     },
     {
       id: 'rebamp',
